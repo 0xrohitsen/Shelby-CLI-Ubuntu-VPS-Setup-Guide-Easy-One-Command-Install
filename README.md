@@ -1,14 +1,22 @@
-# 🚀 Shelby CLI — Ubuntu VPS Installation Guide
+Perfect 🔥
 
-Shelby CLI lets you **upload, download, and manage files (blobs)** on the **Shelby Network**.  
-This guide shows how to set up and use it easily on **Ubuntu or any Linux VPS**.
+Here’s your fully optimized GitHub-ready README.md, rewritten for clean structure, clarity, and separate copy buttons for every command — so users can copy each step individually right from GitHub.
 
 
-## 🧩 Prerequisites
+---
+
+🚀 Shelby CLI — Ubuntu VPS Installation Guide
+
+Shelby CLI lets you upload, download, and manage files (blobs) on the Shelby Network.
+This guide shows how to set up and use it easily on Ubuntu or any Linux VPS.
+
+
+---
+
+🧩 Prerequisites
 
 Before installing Shelby CLI, make sure your system has Node.js and npm installed.
 
-```bash
 sudo apt update && sudo apt install -y nodejs npm git
 
 > 🧠 Tip: Node.js version 18 or higher is recommended.
@@ -18,6 +26,7 @@ sudo apt update && sudo apt install -y nodejs npm git
 Check versions:
 
 node -v
+
 npm -v
 
 
@@ -38,19 +47,19 @@ shelby --version
 
 🏁 Step 2: Initialize Shelby CLI
 
-Run the initialization command to set up configuration files:
+Run initialization to set up configuration files:
 
 shelby init
 
-This will create a config file at:
+This will create:
 
 ~/.shelby/config.yaml
 
-> 💡 During initialization, you can enter your API key (optional but recommended to avoid rate limits).
+> 💡 During initialization, enter your API key (optional but recommended to avoid rate limits).
 
 
 
-To view your config:
+View your config:
 
 cat ~/.shelby/config.yaml
 
@@ -59,11 +68,11 @@ cat ~/.shelby/config.yaml
 
 🌐 Step 3: Check Shelby Contexts
 
-Verify that your Shelby networks (contexts) are configured correctly:
+Verify networks (contexts):
 
 shelby context list
 
-You should see both local and shelbynet networks listed.
+You should see both local and shelbynet networks.
 
 
 ---
@@ -87,21 +96,15 @@ Example output:
 
 💧 Step 5: Fund Your Account
 
-You need APT tokens (for gas fees) and ShelbyUSD tokens (for uploads).
+You need APT tokens (gas) and ShelbyUSD tokens (for uploads).
 
-🔹 Get APT Tokens (Gas)
-
-Use the Aptos faucet for shelbynet:
-
+🔹 Get APT Tokens (Gas):
 👉 https://faucet.shelbynet.shelby.xyz
 
-🔹 Get ShelbyUSD Tokens
-
-Use the Shelby faucet:
-
+🔹 Get ShelbyUSD Tokens:
 👉 https://explorer.shelby.xyz/faucet
 
-Or via CLI (if supported):
+Or via CLI:
 
 shelby faucet fund --token ShelbyUSD --account alice
 
@@ -123,7 +126,7 @@ ShelbyUSD 9.99
 
 📤 Step 7: Upload a File
 
-Upload any file to the Shelby network.
+Upload any file to Shelby:
 
 shelby upload /path/to/file.txt files/file.txt -e tomorrow --assume-yes
 
@@ -137,13 +140,11 @@ shelby upload /path/to/file.txt files/file.txt -e tomorrow --assume-yes
 
 📂 Step 8: Verify Uploaded Files
 
-List all uploaded blobs:
-
 shelby account blobs
 
 Example:
 
-📦  Stored Blobs
+📦 Stored Blobs
 ┌─────────────────────────────────────────────┬───────────────┬─────────────────────────┐
 │ Name                                        │ Size          │ Expires                 │
 ├─────────────────────────────────────────────┼───────────────┼─────────────────────────┤
@@ -154,8 +155,6 @@ Example:
 ---
 
 📥 Step 9: Download a File
-
-Download any uploaded file from Shelby:
 
 shelby download files/file.txt /path/to/save/file.txt
 
@@ -168,9 +167,8 @@ shelby download files/file.txt /path/to/save/file.txt
 
 This means your account doesn’t have enough ShelbyUSD tokens.
 
-Solution: Go to Shelby Faucet
-and fund your account with ShelbyUSD.
-
+✅ Solution:
+Go to Shelby Faucet and fund your account with ShelbyUSD.
 You need both APT (gas) and ShelbyUSD (storage).
 
 
@@ -178,7 +176,7 @@ You need both APT (gas) and ShelbyUSD (storage).
 
 🧹 Optional Commands
 
-List all Shelby CLI commands:
+List all CLI commands:
 
 shelby --help
 
@@ -207,12 +205,9 @@ Download File	shelby download files/file.txt /path/to/file.txt
 
 🔗 Official Resources
 
-🌐 Shelby Explorer: https://explorer.shelby.xyz
-
-📘 Shelby Docs: https://docs.shelby.xyz
-
-💧 Shelby Faucet: https://faucet.shelbynet.shelby.xyz
-
+🌐 Shelby Explorer
+📘 Shelby Docs
+💧 Shelby Faucet
 
 
 ---
@@ -221,3 +216,8 @@ Download File	shelby download files/file.txt /path/to/file.txt
 
 Made with ❤️ by @bigbrainless
 Web3 Creator | Kaito Leaderboard | Shelby Network Contributor
+
+
+---
+
+Would you like me to generate a ready-to-upload Markdown file (README.md) for this version so you can directly replace it on GitHub?
