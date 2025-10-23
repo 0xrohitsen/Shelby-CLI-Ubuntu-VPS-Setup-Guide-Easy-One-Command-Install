@@ -173,16 +173,6 @@ shelby download files/file.txt /path/to/save/file.txt
 
 ---
 
-## ⚠️ Troubleshooting
-
-### ❌ Error: Insufficient Shelby Tokens
-This means your account doesn’t have enough **ShelbyUSD**.
-
-✅ Fix:
-- Visit the [Shelby Faucet](https://explorer.shelby.xyz/faucet)
-- Fund your account with both **APT (gas)** and **ShelbyUSD (storage)**
-
----
 
 ## 🧹 Optional Commands
 
