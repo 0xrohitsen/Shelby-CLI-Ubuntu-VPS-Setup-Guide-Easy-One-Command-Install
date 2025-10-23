@@ -103,10 +103,10 @@ Example:
 You’ll need both **APT tokens** (gas) and **ShelbyUSD tokens** (for uploads).
 
 ### 🔹 Get APT Tokens
-👉 [https://faucet.shelbynet.shelby.xyz](https://faucet.shelbynet.shelby.xyz)
+👉 [https://docs.shelby.xyz/tools/cli#fund-account](https://docs.shelby.xyz/tools/cli#fund-account)
 
 ### 🔹 Get ShelbyUSD Tokens
-👉 [https://explorer.shelby.xyz/faucet](https://explorer.shelby.xyz/faucet)
+👉 [https://docs.shelby.xyz/tools/cli#fund-account](https://docs.shelby.xyz/tools/cli#fund-account)
 
 Or fund via CLI:
 
@@ -216,13 +216,13 @@ npm uninstall -g @shelby-protocol/cli
 
 ## 🔗 Official Links
 
-🌐 [Shelby Explorer](https://explorer.shelby.xyz)  
-📘 [Shelby Docs](https://docs.shelby.xyz)  
-💧 [Shelby Faucet](https://faucet.shelbynet.shelby.xyz)
+🌐 [Shelby Explorer](https://explorer.shelby.xyz/shelbynet)  
+📘 [Shelby Docs](https://docs.shelby.xyz/protocol)  
+💧 [Shelby Faucet](https://docs.shelby.xyz/tools/cli#fund-account)
 
 ---
 
 ## ✨ Author
 
 Made with ❤️ by [@bigbrainless](https://x.com/bigbrainless)  
-Web3 Creator | Kaito Leaderboard | Shelby Network Contributor
+Web3 Creator | Shelby Network Contributor
